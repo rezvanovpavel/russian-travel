@@ -1,5 +1,44 @@
 .cover__background{
-    /*max-width: 1184px;
-    width: 100%;
-    
+    position: relative;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../../../images/cover-trains.jpg');
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 1184px;
+    min-height: 740px; 
+    color:  #FFFFFF;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    -webkit-transition: opacity .3s linear .3s;
+    -o-transition: opacity .3s linear .3s;
+    transition: opacity .3s linear .3s;
+}
+
+.cover__background:hover{
+    opacity: 0.3;
+}
+
+@media screen and (max-width: 1279px) {
+    .cover__background {
+        max-width: 1024px;
+        min-height: 640px; 
+    }
+}
+  
+@media screen and (max-width: 1023px) {
+    .cover__background {
+        max-width: 768px;
+        min-height: 480px; 
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover__background {
+        max-width: 320px;
+        min-height: 200px; 
+    }
 }

@@ -3,11 +3,19 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    max-width: 984px;
 }
 
 @media screen and (max-width: 1279px) {
     .lead__image-caption {
         padding-top: 56px;
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .lead__image-caption {
+        max-width: 768px;
     }
 }
   
@@ -15,6 +23,7 @@
 @media screen and (max-width: 767px) {
     .lead__image-caption {
         padding-top: 40px;
+        max-width: 320px;
     }
 }
 
