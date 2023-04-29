@@ -1,0 +1,10 @@
+.intro__element{
+    margin: 0;
+    padding-left: 0;
+    color: #FFFFFF;
+    z-index: 2;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+}
+

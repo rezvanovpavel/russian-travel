@@ -1,0 +1,21 @@
+.place__website{
+    align-self: end;
+    max-width: 456px;
+}
+
+  
+@media screen and (max-width: 1023px) {
+    .place__website {
+        max-width: 352px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__website {
+        max-width: 288px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+} 

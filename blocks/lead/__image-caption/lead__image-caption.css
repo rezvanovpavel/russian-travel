@@ -1,0 +1,20 @@
+.lead__image-caption{
+    padding-top: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 1279px) {
+    .lead__image-caption {
+        padding-top: 56px;
+    }
+}
+  
+
+@media screen and (max-width: 767px) {
+    .lead__image-caption {
+        padding-top: 40px;
+    }
+}
+
