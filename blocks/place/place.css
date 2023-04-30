@@ -1,16 +1,26 @@
 .place{
+    display: -ms-grid;
     display: grid;
     margin: 0;
+    -ms-grid-columns: 460px 40px 1fr;
     grid-template-columns: 460px 1fr;
+    -ms-grid-rows: auto;
     grid-template-rows: auto;
     grid-auto-rows: auto;
     gap: 48px 40px;
     max-width: 984px;
+}.place > *:nth-child(1){
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+}.place > *:nth-child(2){
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
 }
 
 @media screen and (max-width: 1279px) {
     .place {
         max-width: 928px;
+        -ms-grid-columns: 440px 32px 1fr;
         grid-template-columns: 440px 1fr;
         gap: 48px 32px;
     }
@@ -19,6 +29,7 @@
 @media screen and (max-width: 1023px) {
     .place {
         max-width: 720px;
+        -ms-grid-columns: 340px 28px 1fr;
         grid-template-columns: 340px 1fr;
         gap: 48px 28px;
     }
@@ -27,6 +38,7 @@
 @media screen and (max-width: 767px) {
     .place {
         max-width: 320px;
+        -ms-grid-columns: 460px;
         grid-template-columns: 460px;
         gap:32px;
     }

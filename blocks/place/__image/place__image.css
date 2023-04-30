@@ -6,9 +6,13 @@
     z-index: 1;
     margin: 0;
     padding: 0;
-    grid-column-start: 1;
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    -ms-grid-column-span: 1;
     grid-column-end: 2;
-    grid-row-start: 2;
+    -ms-grid-row: 2;
+        grid-row-start: 2;
+    -ms-grid-row-span: 1;
     grid-row-end: 3;
 }
 
@@ -30,7 +34,9 @@
     .place__image {
         min-height: 320px;
         max-width: 320px;
-        grid-row-start: 3;
+        -ms-grid-row: 3;
+            grid-row-start: 3;
+        -ms-grid-row-span: 1;
         grid-row-end: 4;
     }
 }  
