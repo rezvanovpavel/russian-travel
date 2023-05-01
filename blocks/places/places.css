@@ -1,10 +1,10 @@
-.places{
+.places {
     margin: 0 auto;
     display: -ms-grid;
     display: grid;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     max-width: 984px;
     padding: 0 148px 92px 148px;
     -ms-grid-columns: 1fr;
@@ -13,7 +13,8 @@
     grid-template-rows: auto;
     gap: 80px;
     grid-auto-rows: auto;
-}.places > *:nth-child(1){
+}
+.places > *:nth-child(1) {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
 }
@@ -24,7 +25,7 @@
         padding: 0 48px 92px 48px;
     }
 }
-  
+
 @media screen and (max-width: 1023px) {
     .places {
         max-width: 720px;

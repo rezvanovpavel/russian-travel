@@ -1,15 +1,15 @@
-.lead__image-caption{
+.lead__image-caption {
     padding-top: 64px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
     max-width: 984px;
 }
 
@@ -25,7 +25,6 @@
         max-width: 768px;
     }
 }
-  
 
 @media screen and (max-width: 767px) {
     .lead__image-caption {

@@ -1,21 +1,28 @@
-.footer__links{
+.footer__links {
     margin: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    gap:18px;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    gap: 18px;
 }
 
 @media screen and (max-width: 767px) {
     .footer__links {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        gap:32px;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        gap: 32px;
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 352px) {
+    .footer__links {
+        padding-left: 0;
     }
 }

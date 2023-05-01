@@ -1,6 +1,6 @@
-.place__paragraph{
+.place__paragraph {
     margin: 0;
-    color: #FFFFFF;
+    color: #ffffff;
     z-index: 2;
     max-width: 484px;
     font-weight: 400;
@@ -13,7 +13,7 @@
         max-width: 456px;
     }
 }
-  
+
 @media screen and (max-width: 1023px) {
     .place__paragraph {
         max-width: 352px;
@@ -25,5 +25,4 @@
     .place__paragraph {
         max-width: 288px;
     }
-}  
-
+}
